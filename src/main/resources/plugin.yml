@@ -1,0 +1,13 @@
+name: SafeTrade
+version: 1.0.0
+main: com.example.safetrade.SafeTrade
+api-version: '26.1'
+description: Two-player GUI trading with offer locking and cancellation protection.
+commands:
+  trade:
+    description: Request a safe item trade with a player.
+    usage: /trade <player>
+    permission: safetrade.use
+permissions:
+  safetrade.use:
+    default: true
